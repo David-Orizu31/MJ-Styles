@@ -215,7 +215,7 @@ html, body {
   }
 
   .banner-1 {
-      background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/MachinCreationsInc-seotool-28081-TheDifferentTypes-BlogBanner1_1024x1024.jpg);
+      background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/jerry-house.jpg);
       min-height: 500px;
       background-position: center;
       background-size: cover;
@@ -422,6 +422,18 @@ figure {
       color: rgb(235, 203, 21);
   }
 
+  .address {
+      list-style-type: none;
+      margin-left: -25px;
+  }
+
+  .address li a {
+      color: white;
+      text-decoration: none;
+      line-height: 2em;
+      margin-left: 10px;
+  }
+
   .btn-sendnews {
       color: white !important;
       background-color: rgb(235, 203, 21) !important;
@@ -457,7 +469,47 @@ figure {
         background-size: cover;
         background-repeat: no-repeat;
     }
-  
+
+    .accordion-area {
+        background-color: rgb(58, 57, 57) !important;
+    }
+
+    .btn-accordion {
+        background-color: rgb(58, 57, 57) !important;
+        color: rgb(235, 203, 21) !important;
+    }
+
+    .accordion-button::after {
+        background-color: rgb(235, 203, 21) !important;
+    }
+
+    .accordion-head {
+        border-bottom: 1px solid rgb(235, 203, 21) !important;
+        border-collapse: collapse !important;
+    }
+
+    .accordion-list {
+        list-style-type: none;
+        margin-left: -30px !important;
+        line-height: 2.5em;
+    }
+
+    .accordion-list li{
+        border-bottom: 1px solid rgb(235, 203, 21);
+    }
+
+    .accordion-list li a {
+        text-decoration: none !important;
+        padding-left: 20px;
+    }
+
+    .accordion-list li:hover {
+        background-color: rgb(235, 203, 21) !important;
+    }
+
+    .slide-head {
+        font-family: Georgia, 'Times New Roman', Times, serif !important;
+    }
 
   #myBtn {
     display: none;

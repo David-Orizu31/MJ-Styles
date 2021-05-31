@@ -18,6 +18,10 @@
     .footer-area .footer {
         margin-left: -25px;
     }
+
+    .aside-nav {
+        padding-top: 50px;
+    }
 }
 
 @media (max-width:480px) {
