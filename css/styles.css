@@ -667,6 +667,55 @@ figure {
         font-size: 17px;
     }
 
+    .contact-info p{
+        font-size: 18px;
+        line-height: 2.2em;
+    }
+
+    .contact-info p span {
+        color: rgb(235, 203, 21);
+        font-size: 20px;
+    }
+
+    .panel-area {
+        border: 1px solid rgb(235, 203, 21);
+        border-radius: 5px;
+        padding: 20px;
+        background-color: whitesmoke;
+    }
+
+    .panel-area h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .panel-area .panel-label {
+        font-size: 20px;
+    }
+
+    .btn-panel {
+        color: white !important;
+        background-color: rgb(235, 203, 21) !important;
+        border-radius: 0px !important;
+        border: 2px solid rgb(235, 203, 21) !important;
+    }
+
+    .btn-panel:hover {
+        color: rgb(235, 203, 21) !important;
+        background-color: white !important;
+    }
+
+    .forgot-pass {
+        text-decoration: none;
+    }
+
+    .forgot-pass:hover {
+        color: rgb(235, 203, 21) !important;
+    }
+
+    .delivery-area p {
+        line-height: 2.2em;
+        font-size: 18px;
+    }
 
 
   #myBtn {

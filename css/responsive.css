@@ -26,6 +26,10 @@
     .about-ceo {
         margin-top: 30px;
     }
+
+    .contact-info {
+        padding-top: 30px;
+    }
 }
 
 @media (max-width:480px) {

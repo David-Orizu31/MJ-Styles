@@ -91,7 +91,7 @@
                     <a class="nav-link" href="gallery.html">Gallery</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link active" href="contact.html">Contact</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="terms-condition.html">Terms and Conditions</a>
@@ -100,7 +100,7 @@
                     <a class="nav-link" href="delivery-returns-policy.html">Delivery/Returns Policy</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active cart-link cart position-relative d-inline-flex" href="cart.html">
+                    <a class="nav-link cart-link cart position-relative d-inline-flex" href="cart.html">
                    <i class="fas fa-shopping-cart fa-lg"></i><span class="cart-basket d-flex align-items-center justify-content-center">0</span> <span style="font-size: 16px; margin-left: 10px;"> Cart</span>
                 </a>
                   </li>
@@ -115,49 +115,45 @@
     </div>
 
     <br><br>
-    <div class="container-fluid">
-        <h2 class="text-center slide-head">Cart</h2>
-       <br>
-        <div class="table-responsive">
-        <table class="table table align-middle table-hover">
-           <thead class="table-warning">
-               <tr>
-                   <th scope="col">S/N</th>
-                   <th scope="col">ITEM</th>
-                   <th scope="col">CATEGORY</th>
-                   <th scope="col">SIZE</th>
-                   <th scope="col">COLOR</th>
-                   <th scope="col">QUANTITY</th>
-                   <th scope="col">SUB TOTAL</th>
-                   <th scope="col">TOTAL</th>
-                   <th scope="col">REMOVE</th>
-               </tr>
-           </thead>
-           <tbody class="table-cart">
-           <tr>
-            <th scope="row">1</th>
-            <td>
-                <img src="img/jeanjack-black.jpg" alt="black-denim" class="img img-responsive cart-image">
-                <p>Men's black Denim Jacket</p>
-            </td>
-            <td>Ready to Wear</td>
-            <td>Medium</td>
-            <td>#000000</td>
-            <td>2</td>
-            <td>₦ 7,200</td>
-            <td>₦ 14,400</td>
-            <td><a href="#un" class="text-danger"><i class="fas fa-trash"></i></a></td>
-        </tr>
-    </tbody>
-        </table>
-    </div>
-
-    <br>
-    <div align="right">
-        <h2 style="color: rgb(235, 203, 21);">Total Price :</h2>
-        <h3 style="color: rgb(58, 57, 57);">₦ 14,400</h3>
-    </div>
-       
+    <div class="container">
+        <h2 class="slide-head text-center">Contact Us</h2>
+        <br>
+        <div class="row">
+            <div class="col-md-9">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name" class="form-label"><b>Name</b></label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Enter your Name" required>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                       <label for="email" class="form-label"><b>Email</b></label>
+                       <input type="email" class="form-control" name="email" id="email" placeholder="Enter your Email Address" required>
+                   </div>
+                   <br>
+                   <div class="form-group">
+                       <label for="subject" class="form-label"><b>Subject</b></label>
+                       <input type="text" class="form-control" name="subject" id="subject" placeholder="Enter Subject" required>
+                   </div>
+                   <br>
+                   <div class="form-group">
+                       <label for="message" class="form-label"><b>Message</b></label>
+                       <textarea type="text" class="form-control" name="message" id="message" placeholder="Enter your Message" style="height: 120px;" required></textarea>
+                   </div>
+                   <br>
+                   <div class="d-grid mx-auto">
+                       <button type="submit" class="btn btn-submit">Send</button>
+                   </div>
+                </form>
+            </div>
+            <div class="col-md-3">
+                <div class="contact-info">
+                <p><span class="fas fa-home"> Address :</span> <a style="text-decoration: none;" href="https://www.google.com/maps/search/+No+24+2nd+Avenue+Gwarinpa+21+Road+Just+Before+IC+World./@9.0551958,7.3666797,12z/data=!3m1!4b1!4m5!2m4!5m3!5m2!4m1!1i2" class="text-dark">No 24 2nd Avenue Gwarinpa 21 Road Just Before IC World.</a></p>
+                <p><span class="fas fa-phone"> Phone :</span> <a style="text-decoration: none;" href="tel:+234-567-092-1783" class="text-dark">+234 567 092 1783</a></p>
+                <p><span class="fas fa-envelope"> Email :</span> <a style="text-decoration: none;" href="mailto:info@mjstylez.com" class="text-dark">info@mjstylez.com</a></p>
+            </div>
+            </div>
+        </div>
     </div>
 
 
@@ -283,4 +279,4 @@
 });
      </script>
 </body>
-</html>
+</html>    
