@@ -1,2 +1,2 @@
 # MJ-Styles
- MJ STYLES
+ MJ Stylez
